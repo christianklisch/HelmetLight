@@ -42,7 +42,7 @@ void headcolor(uint8_t wait) {
   double i,j;
   double hb = 10.0;
   double hg = 25.0;
-  double v = -24.0;
+  double v = -1 * nLEDs / 2.0;
   double z = -0.10;
 
   double maxlight = 20.0;
